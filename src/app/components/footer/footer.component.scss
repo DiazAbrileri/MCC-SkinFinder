@@ -1,0 +1,27 @@
+.whole-footer{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: rgb(226, 200, 205);
+    padding: 20px;
+}
+.apis{
+    color: rgb(226, 200, 205);
+}
+
+.separet-div{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

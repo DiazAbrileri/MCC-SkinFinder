@@ -1,0 +1,15 @@
+<div class="Forms"><img (mouseover)="mouseover()" [src]="playerUrl">
+<form>
+    <div class="dropdown-menu">
+        <div class="dropdown-opener" (click)="toogleMenu()">Selecione o Modo</div>
+        @if(isDropdownOpen){
+        <div class="menu">
+            <div class="menu-item" (click)="photoValue(0,PlayerName.value)">Corpo</div>
+            <div class="menu-item" (click)="photoValue(1,PlayerName.value)">Cabeça</div>
+            <div class="menu-item" (click)="photoValue(2,PlayerName.value)">Avatar</div>
+        </div>
+        }
+    </div>
+    <input type="text" class="player-Name" (change)="searchValue(PlayerName.value)" #PlayerName>
+</form>
+</div>

@@ -1,0 +1,35 @@
+.Forms{
+    text-align: center;
+}
+.dropdown-menu{
+    margin: 0 auto;
+    width: 247px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: fade-in($color: orange, $amount: 0);
+}
+.dropbtn{
+    padding: 10px;
+}
+.player-Name{
+    width: auto;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+
+.menu{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-item{
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
